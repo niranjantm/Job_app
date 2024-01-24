@@ -43,7 +43,7 @@ function Jobs() {
 
       {jobForm&&<div className="absolute z-10  right-0 top-0 h-full  left-0 flex justify-center">
             <div className="z-20 mt-[150px]">
-            <CreateAJob></CreateAJob>
+            <CreateAJob setJobForm={setJobForm}></CreateAJob>
             </div>
             
       </div>}
